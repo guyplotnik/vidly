@@ -3,7 +3,11 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "PORT=3001 jest --watchAll --verbose"
+    "test": "PORT=3001 jest --watchAll --verbose",
+    "start":"node index.js"
+  },
+  "engines":{
+    "node":"v21.5.0"
   },
   "dependencies": {
     "bcrypt": "^5.1.1",
